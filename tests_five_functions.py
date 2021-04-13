@@ -9,6 +9,7 @@ def test_kajas_five_functions():
     assert kaja_plus(tval1) == 26
     assert kaja_plus(tval2) == 28
     assert kaja_plus(tval3) == 24
+    assert kaja_plus("word") == "non-num input"
     # assert kaja_plus(tval4) == ?
     print("kaja_plus test successful")
 
